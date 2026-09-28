@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Dulce Paraíso · Panadería Mexicana</title>
+    <meta name="description" content="Conchas, pan dulce y pasteles hechos a mano todos los días en Lancaster, SC." />
+    <!--seo-->
+    <meta name="theme-color" content="#FAF6F0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Dulce Paraíso" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,50;1,9..144,300..600,50&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <script>
+      // Apply the saved/system theme before first paint so there is no flash.
+      (function () {
+        var t = 'system';
+        try { t = localStorage.getItem('dp-theme') || 'system'; } catch (e) {}
+        var dark = t === 'dark' || (t === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      })();
+    </script>
+    <style>#root > [data-ssr] { display: none; }</style>
+    <noscript><style>#root > [data-ssr] { display: block; }</style></noscript>
+  </head>
+  <body>
+    <div id="root"><!--ssr--></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

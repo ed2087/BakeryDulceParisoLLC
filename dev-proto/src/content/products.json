@@ -1,0 +1,385 @@
+[
+  {
+    "id": "concha-vainilla",
+    "category": "conchas",
+    "image": "concha-vainilla",
+    "price": 2.25,
+    "featured": true,
+    "badges": [
+      "popular",
+      "fresh"
+    ],
+    "name": {
+      "es": "Concha de Vainilla",
+      "en": "Vanilla Concha"
+    },
+    "description": {
+      "es": "Pan suave y esponjoso con una delicada costra de azúcar y vainilla.",
+      "en": "Soft, pillowy sweet bread topped with a delicate vanilla sugar crust."
+    }
+  },
+  {
+    "id": "concha-chocolate",
+    "category": "conchas",
+    "image": "concha-chocolate",
+    "price": 2.25,
+    "featured": true,
+    "badges": [
+      "fresh"
+    ],
+    "name": {
+      "es": "Concha de Chocolate",
+      "en": "Chocolate Concha"
+    },
+    "description": {
+      "es": "Nuestra concha clásica con costra de cacao, perfecta con café.",
+      "en": "Our classic concha with a cocoa crust, made for coffee."
+    }
+  },
+  {
+    "id": "concha-fresa",
+    "category": "conchas",
+    "image": "concha-fresa",
+    "price": 3.75,
+    "badges": [
+      "popular"
+    ],
+    "name": {
+      "es": "Concha con Fresas",
+      "en": "Strawberry Concha"
+    },
+    "description": {
+      "es": "Concha rellena de crema batida y fresas frescas.",
+      "en": "Concha filled with whipped cream and fresh strawberries."
+    }
+  },
+  {
+    "id": "concha-colores",
+    "category": "conchas",
+    "image": "concha-colores",
+    "price": 2.5,
+    "badges": [],
+    "name": {
+      "es": "Concha de Colores",
+      "en": "Rainbow Concha"
+    },
+    "description": {
+      "es": "La favorita de los niños, con grageas de colores.",
+      "en": "A kids' favorite, covered in rainbow sprinkles."
+    }
+  },
+  {
+    "id": "oreja",
+    "category": "pan-dulce",
+    "image": "oreja",
+    "price": 2,
+    "featured": true,
+    "badges": [
+      "popular"
+    ],
+    "name": {
+      "es": "Orejas",
+      "en": "Orejas"
+    },
+    "description": {
+      "es": "Hojaldre crujiente caramelizado con azúcar, capa por capa.",
+      "en": "Crisp puff pastry caramelized with sugar, layer by layer."
+    }
+  },
+  {
+    "id": "polvoron",
+    "category": "pan-dulce",
+    "image": "polvoron",
+    "price": 1.5,
+    "badges": [],
+    "name": {
+      "es": "Polvorones",
+      "en": "Polvorones"
+    },
+    "description": {
+      "es": "Galleta suave que se deshace en la boca, cubierta de azúcar.",
+      "en": "Tender, melt-in-your-mouth shortbread dusted with sugar."
+    }
+  },
+  {
+    "id": "cuernito",
+    "category": "pan-dulce",
+    "image": "cuernito",
+    "price": 2.25,
+    "badges": [
+      "fresh"
+    ],
+    "name": {
+      "es": "Cuernitos",
+      "en": "Cuernitos"
+    },
+    "description": {
+      "es": "Cuernos de mantequilla, dorados y hojaldrados.",
+      "en": "Buttery horn-shaped pastries, golden and flaky."
+    }
+  },
+  {
+    "id": "rol-canela",
+    "category": "pan-dulce",
+    "image": "rol-canela",
+    "price": 3,
+    "badges": [],
+    "name": {
+      "es": "Rol de Canela",
+      "en": "Cinnamon Roll"
+    },
+    "description": {
+      "es": "Espiral de masa suave con canela y glaseado.",
+      "en": "A soft spiral of dough with cinnamon and glaze."
+    }
+  },
+  {
+    "id": "tres-leches",
+    "category": "pasteles",
+    "image": "tres-leches",
+    "price": 4.5,
+    "featured": true,
+    "badges": [
+      "popular"
+    ],
+    "name": {
+      "es": "Tres Leches",
+      "en": "Tres Leches"
+    },
+    "description": {
+      "es": "Pan empapado en tres leches con crema batida ligera. Rebanada.",
+      "en": "Sponge soaked in three milks, finished with light whipped cream. Per slice."
+    }
+  },
+  {
+    "id": "tres-leches-fresa",
+    "category": "pasteles",
+    "image": "tres-leches-fresa",
+    "price": 4.95,
+    "badges": [
+      "seasonal"
+    ],
+    "name": {
+      "es": "Tres Leches de Fresa",
+      "en": "Strawberry Tres Leches"
+    },
+    "description": {
+      "es": "Nuestro tres leches con fresas frescas de temporada.",
+      "en": "Our tres leches with fresh seasonal strawberries."
+    }
+  },
+  {
+    "id": "pastel-chocolate",
+    "category": "pasteles",
+    "image": "pastel-chocolate",
+    "price": 38,
+    "badges": [],
+    "name": {
+      "es": "Pastel de Chocolate",
+      "en": "Chocolate Cake"
+    },
+    "description": {
+      "es": "Pastel entero de chocolate con betún y rosas. Sirve 10–12.",
+      "en": "Whole chocolate cake with frosting roses. Serves 10–12."
+    }
+  },
+  {
+    "id": "pastel-vainilla",
+    "category": "pasteles",
+    "image": "pastel-boda",
+    "price": 34,
+    "badges": [],
+    "name": {
+      "es": "Pastel de Vainilla",
+      "en": "Vanilla Cake"
+    },
+    "description": {
+      "es": "Pastel de vainilla con crema y fruta fresca. Sirve 10–12.",
+      "en": "Vanilla cake with cream and fresh fruit. Serves 10–12."
+    }
+  },
+  {
+    "id": "empanada-pina",
+    "category": "empanadas",
+    "image": "empanada-pina",
+    "price": 2.5,
+    "featured": true,
+    "badges": [
+      "fresh",
+      "popular"
+    ],
+    "name": {
+      "es": "Empanada de Piña",
+      "en": "Pineapple Empanada"
+    },
+    "description": {
+      "es": "Masa hojaldrada rellena de piña dulce casera.",
+      "en": "Flaky pastry filled with sweet homemade pineapple."
+    }
+  },
+  {
+    "id": "empanada-calabaza",
+    "category": "empanadas",
+    "image": "empanada-calabaza",
+    "price": 2.5,
+    "badges": [
+      "seasonal"
+    ],
+    "name": {
+      "es": "Empanada de Calabaza",
+      "en": "Pumpkin Empanada"
+    },
+    "description": {
+      "es": "Calabaza con piloncillo y canela. Solo en temporada.",
+      "en": "Pumpkin with piloncillo and cinnamon. Seasonal only."
+    }
+  },
+  {
+    "id": "bolillo",
+    "category": "bolillos",
+    "image": "bolillo",
+    "price": 0.75,
+    "featured": true,
+    "badges": [
+      "fresh"
+    ],
+    "name": {
+      "es": "Bolillo",
+      "en": "Bolillo"
+    },
+    "description": {
+      "es": "Crujiente por fuera, suave por dentro. Perfecto para tortas.",
+      "en": "Crisp outside, soft inside. Perfect for tortas."
+    }
+  },
+  {
+    "id": "telera",
+    "category": "bolillos",
+    "image": "telera",
+    "price": 0.85,
+    "badges": [],
+    "name": {
+      "es": "Telera",
+      "en": "Telera"
+    },
+    "description": {
+      "es": "Pan plano y suave, el favorito para tortas.",
+      "en": "Soft, flat roll, the go-to for tortas."
+    }
+  },
+  {
+    "id": "dona-azucar",
+    "category": "donas",
+    "image": "dona-azucar",
+    "price": 1.5,
+    "badges": [
+      "fresh"
+    ],
+    "name": {
+      "es": "Dona de Azúcar",
+      "en": "Sugar Donut"
+    },
+    "description": {
+      "es": "Dona esponjosa revolcada en azúcar.",
+      "en": "Fluffy donut rolled in sugar."
+    }
+  },
+  {
+    "id": "dona-chocolate",
+    "category": "donas",
+    "image": "dona-chocolate",
+    "price": 1.75,
+    "badges": [
+      "popular"
+    ],
+    "name": {
+      "es": "Dona de Chocolate",
+      "en": "Chocolate Donut"
+    },
+    "description": {
+      "es": "Glaseado de chocolate con chispas de colores.",
+      "en": "Chocolate glaze with rainbow sprinkles."
+    }
+  },
+  {
+    "id": "flan",
+    "category": "postres",
+    "image": "flan",
+    "price": 3.5,
+    "badges": [
+      "popular"
+    ],
+    "name": {
+      "es": "Flan Napolitano",
+      "en": "Flan"
+    },
+    "description": {
+      "es": "Flan cremoso con caramelo, receta de la casa.",
+      "en": "Creamy caramel flan, our house recipe."
+    }
+  },
+  {
+    "id": "galleta-grageas",
+    "category": "galletas",
+    "image": "galleta-grageas",
+    "price": 1.25,
+    "badges": [],
+    "name": {
+      "es": "Galletas de Grageas",
+      "en": "Sprinkle Cookies"
+    },
+    "description": {
+      "es": "Galleta de mantequilla con grageas de colores.",
+      "en": "Butter cookie covered in rainbow sprinkles."
+    }
+  },
+  {
+    "id": "cafe-olla",
+    "category": "bebidas",
+    "image": "cafe-olla",
+    "price": 2.75,
+    "badges": [
+      "popular"
+    ],
+    "name": {
+      "es": "Café de Olla",
+      "en": "Café de Olla"
+    },
+    "description": {
+      "es": "Café con canela y piloncillo, como en casa.",
+      "en": "Coffee with cinnamon and piloncillo, just like home."
+    }
+  },
+  {
+    "id": "horchata",
+    "category": "bebidas",
+    "image": "horchata",
+    "price": 3.25,
+    "badges": [],
+    "name": {
+      "es": "Horchata",
+      "en": "Horchata"
+    },
+    "description": {
+      "es": "Agua fresca de arroz con canela.",
+      "en": "Cool rice and cinnamon agua fresca."
+    }
+  },
+  {
+    "id": "champurrado",
+    "category": "bebidas",
+    "image": "champurrado",
+    "price": 3.25,
+    "badges": [
+      "seasonal"
+    ],
+    "name": {
+      "es": "Champurrado",
+      "en": "Champurrado"
+    },
+    "description": {
+      "es": "Atole espeso de chocolate con canela.",
+      "en": "Thick chocolate atole with cinnamon."
+    }
+  }
+]

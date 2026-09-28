@@ -1,0 +1,38 @@
+{
+  "_readme": "Search-engine copy for each page. Product and category pages are generated from products.json/categories.json using the templates below. {name}, {description}, {price}, {city} are filled in automatically.",
+  "siteName": "Dulce Paraíso · Panadería Mexicana",
+  "locale": "es_US",
+  "defaultImage": "hero-wide",
+  "pages": {
+    "/": {
+      "title": "Dulce Paraíso · Panadería Mexicana en Lancaster, SC",
+      "description": "Panadería mexicana en Lancaster, SC. Conchas, pan dulce, bolillos, tres leches y pasteles para quinceañeras y bodas, horneados todos los días. Mexican bakery open daily 8 AM – 9 PM.",
+      "image": "hero-wide"
+    },
+    "/menu": {
+      "title": "Menú · Pan Dulce, Conchas y Pasteles | Dulce Paraíso",
+      "description": "Nuestro menú completo: conchas, orejas, polvorones, empanadas, bolillos, donas, flan, tres leches, café de olla y horchata. Mexican bakery menu in Lancaster, SC.",
+      "image": "pan-surtido"
+    },
+    "/pasteles": {
+      "title": "Pasteles para Quinceañeras, Bodas y Cumpleaños | Dulce Paraíso",
+      "description": "Pasteles personalizados para XV años, bodas, cumpleaños y bautizos en Lancaster, SC. Custom quinceañera, wedding and birthday cakes. Pide tu cotización.",
+      "image": "pastel-xv-tier"
+    },
+    "/visitanos": {
+      "title": "Visítanos · Horario y Ubicación | Dulce Paraíso, Lancaster SC",
+      "description": "1456 Springdale Rd, Lancaster, SC 29720. Abierto todos los días de 8 AM a 9 PM. Estacionamiento, acceso para silla de ruedas y mesas al aire libre. (864) 779-6216.",
+      "image": "vitrina"
+    }
+  },
+  "templates": {
+    "product": {
+      "title": "{name} · Panadería Mexicana en {city} | Dulce Paraíso",
+      "description": "{name} ({nameEn}) – {description} {price}. Recién horneado en Dulce Paraíso, {city}, SC."
+    },
+    "category": {
+      "title": "{name} · Panadería Mexicana en {city} | Dulce Paraíso",
+      "description": "{name} ({nameEn}) recién hechos todos los días: {items}. Dulce Paraíso, panadería mexicana en {city}, SC."
+    }
+  }
+}

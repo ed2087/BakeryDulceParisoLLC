@@ -1,0 +1,120 @@
+{
+  "name": "Dulce Paraíso",
+  "shortName": "Dulce Paraíso",
+  "kicker": {
+    "es": "Panadería Mexicana",
+    "en": "Mexican Bakery"
+  },
+  "legalName": "Bakery Dulce Pariso LLC",
+  "since": 2026,
+  "tagline": {
+    "es": "Recién horneado.\nHecho con tradición.",
+    "en": "Freshly baked.\nMade with tradition."
+  },
+  "intro": {
+    "es": "Conchas, pan dulce y pasteles hechos a mano todos los días en Lancaster.",
+    "en": "Conchas, pan dulce and cakes made by hand every day in Lancaster."
+  },
+  "address": {
+    "street": "1456 Springdale Rd",
+    "city": "Lancaster",
+    "state": "SC",
+    "zip": "29720",
+    "lat": 34.7027352,
+    "lng": -80.7851279
+  },
+  "phone": "+18647796216",
+  "phoneDisplay": "(864) 779-6216",
+  "timezone": "America/New_York",
+  "hours": [
+    {
+      "day": 0,
+      "open": "08:00",
+      "close": "21:00"
+    },
+    {
+      "day": 1,
+      "open": "08:00",
+      "close": "21:00"
+    },
+    {
+      "day": 2,
+      "open": "08:00",
+      "close": "21:00"
+    },
+    {
+      "day": 3,
+      "open": "08:00",
+      "close": "21:00"
+    },
+    {
+      "day": 4,
+      "open": "08:00",
+      "close": "21:00"
+    },
+    {
+      "day": 5,
+      "open": "08:00",
+      "close": "21:00"
+    },
+    {
+      "day": 6,
+      "open": "08:00",
+      "close": "21:00"
+    }
+  ],
+  "amenities": [
+    {
+      "icon": "parking",
+      "label": {
+        "es": "Estacionamiento",
+        "en": "Parking"
+      }
+    },
+    {
+      "icon": "accessible",
+      "label": {
+        "es": "Acceso para silla de ruedas",
+        "en": "Wheelchair accessible"
+      }
+    },
+    {
+      "icon": "outdoor",
+      "label": {
+        "es": "Mesas al aire libre",
+        "en": "Outdoor seating"
+      }
+    },
+    {
+      "icon": "card",
+      "label": {
+        "es": "Efectivo y tarjeta",
+        "en": "Cash & card"
+      }
+    },
+    {
+      "icon": "language",
+      "label": {
+        "es": "Hablamos español e inglés",
+        "en": "We speak Spanish & English"
+      }
+    }
+  ],
+  "social": [
+    {
+      "type": "google",
+      "label": "Google",
+      "url": "https://www.google.com/maps/search/?api=1&query=1456+Springdale+Rd+Lancaster+SC+29720"
+    },
+    {
+      "type": "instagram",
+      "label": "Instagram",
+      "url": "https://instagram.com/"
+    },
+    {
+      "type": "facebook",
+      "label": "Facebook",
+      "url": "https://facebook.com/"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "nav": {
+    "home": {
+      "es": "Inicio",
+      "en": "Home"
+    },
+    "menu": {
+      "es": "Menú",
+      "en": "Menu"
+    },
+    "cakes": {
+      "es": "Pasteles",
+      "en": "Cakes"
+    },
+    "visit": {
+      "es": "Visítanos",
+      "en": "Visit"
+    },
+    "search": {
+      "es": "Buscar",
+      "en": "Search"
+    },
+    "theme": {
+      "es": "Cambiar tema",
+      "en": "Toggle theme"
+    },
+    "language": {
+      "es": "English",
+      "en": "Español"
+    },
+    "call": {
+      "es": "Llamar",
+      "en": "Call"
+    }
+  },
+  "status": {
+    "openNow": {
+      "es": "Abierto",
+      "en": "Open now"
+    },
+    "closed": {
+      "es": "Cerrado",
+      "en": "Closed"
+    },
+    "until": {
+      "es": "hasta las",
+      "en": "until"
+    },
+    "opensAt": {
+      "es": "abre a las",
+      "en": "opens at"
+    }
+  },
+  "badges": {
+    "popular": {
+      "es": "Popular",
+      "en": "Popular"
+    },
+    "fresh": {
+      "es": "Recién hecho",
+      "en": "Fresh today"
+    },
+    "seasonal": {
+      "es": "Temporada",
+      "en": "Seasonal"
+    }
+  },
+  "days": {
+    "es": [
+      "Domingo",
+      "Lunes",
+      "Martes",
+      "Miércoles",
+      "Jueves",
+      "Viernes",
+      "Sábado"
+    ],
+    "en": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ]
+  },
+  "menu": {
+    "title": {
+      "es": "Nuestro menú",
+      "en": "Our menu"
+    },
+    "subtitle": {
+      "es": "Horneado fresco todos los días.",
+      "en": "Baked fresh every day."
+    },
+    "all": {
+      "es": "Todo",
+      "en": "All"
+    },
+    "items": {
+      "es": "productos",
+      "en": "items"
+    }
+  },
+  "product": {
+    "back": {
+      "es": "Regresar",
+      "en": "Back"
+    },
+    "favorite": {
+      "es": "Guardar",
+      "en": "Save"
+    },
+    "related": {
+      "es": "También te puede gustar",
+      "en": "You may also like"
+    },
+    "availability": {
+      "es": "Horneado fresco todos los días",
+      "en": "Baked fresh every day"
+    },
+    "inStore": {
+      "es": "Solo en tienda · pregunta por disponibilidad",
+      "en": "In-store only · call to check availability"
+    },
+    "call": {
+      "es": "Llamar para apartar",
+      "en": "Call to reserve"
+    },
+    "callShort": {
+      "es": "Llamar",
+      "en": "Call"
+    },
+    "directions": {
+      "es": "Cómo llegar",
+      "en": "Directions"
+    }
+  },
+  "search": {
+    "placeholder": {
+      "es": "¿Qué se te antoja?",
+      "en": "What are you craving?"
+    },
+    "suggestions": {
+      "es": "Sugerencias",
+      "en": "Try"
+    },
+    "suggestionTerms": {
+      "es": [
+        "concha",
+        "tres leches",
+        "empanada",
+        "café"
+      ],
+      "en": [
+        "concha",
+        "tres leches",
+        "empanada",
+        "coffee"
+      ]
+    },
+    "empty": {
+      "es": "No encontramos eso… todavía.",
+      "en": "We couldn't find that… yet."
+    },
+    "close": {
+      "es": "Cerrar",
+      "en": "Close"
+    }
+  },
+  "cake": {
+    "title": {
+      "es": "Cotiza tu pastel",
+      "en": "Request a cake"
+    },
+    "subtitle": {
+      "es": "Cuéntanos de tu celebración y te contactamos en 24 horas.",
+      "en": "Tell us about your celebration and we'll reach out within 24 hours."
+    },
+    "occasion": {
+      "es": "Ocasión",
+      "en": "Occasion"
+    },
+    "servings": {
+      "es": "Personas",
+      "en": "Servings"
+    },
+    "date": {
+      "es": "Fecha del evento",
+      "en": "Event date"
+    },
+    "notes": {
+      "es": "Tu idea (sabores, colores, estilo)",
+      "en": "Your idea (flavors, colors, style)"
+    },
+    "submit": {
+      "es": "Enviar solicitud",
+      "en": "Send request"
+    },
+    "doneTitle": {
+      "es": "¡Solicitud enviada!",
+      "en": "Request sent!"
+    },
+    "doneBody": {
+      "es": "Esta es una demostración. En la versión final, la panadería recibiría tu solicitud al instante.",
+      "en": "This is a demo. In the live version, the bakery would get your request instantly."
+    }
+  },
+  "visit": {
+    "hours": {
+      "es": "Horario",
+      "en": "Hours"
+    },
+    "everyDay": {
+      "es": "Todos los días",
+      "en": "Every day"
+    },
+    "directions": {
+      "es": "Cómo llegar",
+      "en": "Directions"
+    },
+    "call": {
+      "es": "Llamar",
+      "en": "Call"
+    },
+    "today": {
+      "es": "Hoy",
+      "en": "Today"
+    },
+    "findUs": {
+      "es": "Encuéntranos",
+      "en": "Find us"
+    }
+  },
+  "footer": {
+    "rights": {
+      "es": "Todos los derechos reservados.",
+      "en": "All rights reserved."
+    },
+    "prototype": {
+      "es": "Prototipo de diseño · fotos de muestra",
+      "en": "Design prototype · sample photography"
+    }
+  },
+  "notFound": {
+    "title": {
+      "es": "Este pan ya se acabó.",
+      "en": "This one sold out."
+    },
+    "cta": {
+      "es": "Ver el menú",
+      "en": "See the menu"
+    }
+  },
+  "form": {
+    "name": {
+      "es": "Tu nombre",
+      "en": "Your name"
+    },
+    "phone": {
+      "es": "Teléfono",
+      "en": "Phone"
+    },
+    "back": {
+      "es": "Seguir viendo",
+      "en": "Keep browsing"
+    }
+  }
+}

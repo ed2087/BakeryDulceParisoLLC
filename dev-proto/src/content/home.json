@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "image": "hero",
+    "imageWide": "hero-wide",
+    "cta": {
+      "es": "Ver el pan dulce",
+      "en": "Explore the pan dulce"
+    },
+    "secondaryCta": {
+      "es": "Cómo llegar",
+      "en": "Get directions"
+    }
+  },
+  "fresh": {
+    "eyebrow": {
+      "es": "Hoy",
+      "en": "Today"
+    },
+    "title": {
+      "es": "Recién salido del horno",
+      "en": "Fresh from the oven"
+    },
+    "link": {
+      "es": "Ver todo",
+      "en": "See all"
+    }
+  },
+  "categories": {
+    "eyebrow": {
+      "es": "Explora",
+      "en": "Browse"
+    },
+    "title": {
+      "es": "¿Qué se te antoja?",
+      "en": "What are you craving?"
+    }
+  },
+  "celebrations": {
+    "image": "pastel-xv-tier",
+    "gallery": [
+      "pastel-xv",
+      "pastel-boda",
+      "pastel-cumple"
+    ],
+    "eyebrow": {
+      "es": "Pedidos especiales",
+      "en": "Custom orders"
+    },
+    "title": {
+      "es": "Pasteles para cada celebración",
+      "en": "Cakes for every celebration"
+    },
+    "body": {
+      "es": "Quinceañeras, bodas, cumpleaños y bautizos. Cuéntanos tu idea y la hacemos realidad.",
+      "en": "Quinceañeras, weddings, birthdays and baptisms. Tell us your idea and we'll bring it to life."
+    },
+    "occasions": [
+      {
+        "es": "XV Años",
+        "en": "Quinceañera"
+      },
+      {
+        "es": "Bodas",
+        "en": "Weddings"
+      },
+      {
+        "es": "Cumpleaños",
+        "en": "Birthdays"
+      },
+      {
+        "es": "Bautizos",
+        "en": "Baptisms"
+      }
+    ],
+    "cta": {
+      "es": "Cotizar un pastel",
+      "en": "Request a cake quote"
+    }
+  },
+  "popular": {
+    "eyebrow": {
+      "es": "Favoritos",
+      "en": "Favorites"
+    },
+    "title": {
+      "es": "Lo más pedido",
+      "en": "Most loved"
+    }
+  },
+  "story": {
+    "image": "story-baker",
+    "imageSecondary": "story-oven",
+    "eyebrow": {
+      "es": "Nuestra historia",
+      "en": "Our story"
+    },
+    "title": {
+      "es": "Hecho con tradición.",
+      "en": "Made with tradition."
+    },
+    "body": {
+      "es": "Cada mañana encendemos el horno antes que el sol. Horneamos el pan de nuestras familias, con las recetas que crecimos comiendo, para que cada mordida sepa a casa.",
+      "en": "Every morning we light the oven before the sun comes up. We bake the bread of our families, with the recipes we grew up on, so every bite tastes like home."
+    },
+    "stats": [
+      {
+        "value": "7",
+        "label": {
+          "es": "días a la semana",
+          "en": "days a week"
+        }
+      },
+      {
+        "value": "30+",
+        "label": {
+          "es": "tipos de pan",
+          "en": "kinds of bread"
+        }
+      },
+      {
+        "value": "100%",
+        "label": {
+          "es": "hecho a mano",
+          "en": "made by hand"
+        }
+      }
+    ]
+  },
+  "classes": {
+    "image": "clases",
+    "eyebrow": {
+      "es": "Clases de repostería",
+      "en": "Baking classes"
+    },
+    "title": {
+      "es": "Aprende a hacer conchas con nosotros",
+      "en": "Learn to make conchas with us"
+    },
+    "body": {
+      "es": "Clases pequeñas y prácticas en nuestra cocina. Te llevas lo que hornees.",
+      "en": "Small, hands-on classes in our kitchen. You take home what you bake."
+    },
+    "cta": {
+      "es": "Pedir información",
+      "en": "Ask about classes"
+    }
+  },
+  "visit": {
+    "eyebrow": {
+      "es": "Visítanos",
+      "en": "Visit us"
+    },
+    "title": {
+      "es": "Te esperamos con pan caliente",
+      "en": "Warm bread is waiting"
+    }
+  }
+}

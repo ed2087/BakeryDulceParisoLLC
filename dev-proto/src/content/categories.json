@@ -1,0 +1,11 @@
+[
+  { "id": "conchas", "image": "concha-vainilla", "name": { "es": "Conchas", "en": "Conchas" }, "blurb": { "es": "El clásico de todas las mañanas.", "en": "The everyday classic." } },
+  { "id": "pan-dulce", "image": "pan-surtido", "name": { "es": "Pan Dulce", "en": "Pan Dulce" }, "blurb": { "es": "Orejas, cuernitos, polvorones y más.", "en": "Orejas, cuernitos, polvorones and more." } },
+  { "id": "pasteles", "image": "tres-leches", "name": { "es": "Pasteles", "en": "Cakes" }, "blurb": { "es": "Tres leches y pasteles para toda ocasión.", "en": "Tres leches and cakes for every occasion." } },
+  { "id": "empanadas", "image": "empanada-pina", "name": { "es": "Empanadas", "en": "Empanadas" }, "blurb": { "es": "Rellenas de fruta, recién salidas.", "en": "Fruit-filled, straight from the oven." } },
+  { "id": "bolillos", "image": "bolillo", "name": { "es": "Bolillos", "en": "Bread" }, "blurb": { "es": "Bolillo y telera, crujientes por fuera.", "en": "Bolillo and telera, crisp outside." } },
+  { "id": "donas", "image": "dona-azucar", "name": { "es": "Donas", "en": "Donuts" }, "blurb": { "es": "Esponjosas, glaseadas y de azúcar.", "en": "Fluffy, glazed and sugared." } },
+  { "id": "postres", "image": "flan", "name": { "es": "Postres", "en": "Desserts" }, "blurb": { "es": "Flan, gelatinas y dulces caseros.", "en": "Flan, gelatinas and homemade sweets." } },
+  { "id": "galletas", "image": "galleta-grageas", "name": { "es": "Galletas", "en": "Cookies" }, "blurb": { "es": "Para el café o para llevar.", "en": "For your coffee or to go." } },
+  { "id": "bebidas", "image": "cafe-olla", "name": { "es": "Bebidas", "en": "Drinks" }, "blurb": { "es": "Café de olla, horchata y champurrado.", "en": "Café de olla, horchata and champurrado." } }
+]

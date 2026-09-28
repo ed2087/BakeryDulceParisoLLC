@@ -1,0 +1,160 @@
+@import 'tailwindcss';
+
+/* ---------- Design tokens ----------
+   Light "Masa" and dark "Café de Olla". One accent (piloncillo).
+   The photography provides the rest of the color. */
+:root,
+[data-theme='light'] {
+  --bg: #faf6f0;
+  --surface: #ffffff;
+  --surface-2: #f2ebe1;
+  --fg: #1f1a16;
+  --muted: #6e645b;
+  --accent: #b5652e;
+  --accent-fg: #ffffff;
+  --accent-soft: #ead9c6;
+  --line: rgb(31 26 22 / 0.08);
+  --line-strong: rgb(31 26 22 / 0.14);
+  --ok: #5e7a5a;
+  --glass: rgb(250 246 240 / 0.72);
+  --shadow: 0 1px 2px rgb(31 26 22 / 0.04), 0 8px 24px -8px rgb(31 26 22 / 0.12);
+  --shadow-lg: 0 2px 6px rgb(31 26 22 / 0.05), 0 24px 60px -20px rgb(31 26 22 / 0.28);
+  --map-filter: grayscale(1) sepia(0.28) contrast(0.92) brightness(1.04);
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  --bg: #14110f;
+  --surface: #1e1a17;
+  --surface-2: #2a2420;
+  --fg: #f3ece3;
+  --muted: #a3988c;
+  --accent: #d98a4e;
+  --accent-fg: #1a120c;
+  --accent-soft: #3a2a1f;
+  --line: rgb(243 236 227 / 0.08);
+  --line-strong: rgb(243 236 227 / 0.14);
+  --ok: #8fae89;
+  --glass: rgb(30 26 23 / 0.66);
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -8px rgb(0 0 0 / 0.5);
+  --shadow-lg: 0 2px 6px rgb(0 0 0 / 0.3), 0 24px 60px -20px rgb(0 0 0 / 0.7);
+  --map-filter: invert(0.92) hue-rotate(180deg) grayscale(0.85) sepia(0.2) contrast(0.9) brightness(0.9);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-fg: var(--accent-fg);
+  --color-accent-soft: var(--accent-soft);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ok: var(--ok);
+  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --shadow-soft: var(--shadow);
+  --shadow-lift: var(--shadow-lg);
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ---------- Base ---------- */
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  scroll-padding-top: 5rem;
+}
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-feature-settings: 'ss01', 'cv11';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+::selection { background: var(--accent); color: var(--accent-fg); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* ---------- Utilities ---------- */
+@utility font-display {
+  font-family: var(--font-display);
+  font-variation-settings: 'SOFT' 50, 'WONK' 0;
+  letter-spacing: -0.02em;
+}
+
+@utility glass {
+  background: var(--glass);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  border: 1px solid var(--line);
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+@utility pressable {
+  transition: transform 0.18s var(--ease-out-soft), opacity 0.18s ease, background-color 0.25s ease;
+  &:active { transform: scale(0.96); }
+}
+
+@utility eyebrow {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+@utility safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@utility snap-x-mandatory {
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 1.25rem;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+
+/* Soft grain over hero images for a filmic, less "stock" feel */
+.grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.08;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Must live in the base layer, otherwise it would beat Tailwind's text-* utilities. */
+@layer base {
+  input, textarea, select, button { font: inherit; color: inherit; }
+  input[type='date']::-webkit-calendar-picker-indicator { opacity: 0.5; }
+  [data-theme='dark'] input[type='date']::-webkit-calendar-picker-indicator { filter: invert(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
